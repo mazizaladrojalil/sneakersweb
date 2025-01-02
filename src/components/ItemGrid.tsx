@@ -1,3 +1,4 @@
+"use client";
 import ItemCard from "./ItemCard";
 
 type Item = {
@@ -5,6 +6,12 @@ type Item = {
   name: string;
   price: number;
   image: string;
+  discount: number;
+  category: string;
+  brand:string;
+  stock : {
+    [size: string]: number;
+  };
 };
 
 type ItemGridProps = {

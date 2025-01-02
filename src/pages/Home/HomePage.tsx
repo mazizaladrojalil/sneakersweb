@@ -5,9 +5,8 @@ import {motion} from "framer-motion";
 
 
 const Homepage=()=> {
-
     return(
-        <div className="">
+        <div>
                 <Hero/>
                 <motion.div
                     initial={{ y: 500, opacity: 0 }}

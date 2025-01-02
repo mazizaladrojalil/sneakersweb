@@ -1,3 +1,4 @@
+"use client";
 const Menu = () => {
     return (
         <div className="border-2 w-100">

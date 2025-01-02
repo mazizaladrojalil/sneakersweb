@@ -1,9 +1,7 @@
+"use client";
 import AnimateHeading from "@/components/AnimatedHeading";
 import ItemGrid from "@/components/ItemGrid";
-import { useEffect, useState } from "react";
 import cardImagesData from "../../../json/shoesImage.json"
-
-
 
 export default function TrendingSection() {
 
