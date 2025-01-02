@@ -1,0 +1,154 @@
+
+.search-bar {
+  position: relative;
+  box-sizing: border-box;
+  width: fit-content;
+}
+
+.mainbox {
+  box-sizing: border-box;
+  position: relative;
+  width: 230px;
+  height: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center!important;
+  justify-content: center!important;
+  border-radius: 160px;
+  background-color: rgb(0, 0, 0);
+  transition: all 0.3s ease;
+}
+
+.checkboxSearch:focus {
+  border: none!important;
+  outline: none!important;
+}
+
+.checkboxSearch:checked {
+  right: 10px;
+}
+
+.checkboxSearch:checked ~ .mainbox {
+  width: 52px;
+}
+
+.checkboxSearch:checked ~ .mainbox .search_input {
+  width: 0;
+  height: 0px;
+}
+
+.checkboxSearch:checked ~ .mainbox .iconContainer {
+  padding-right: 20px;
+}
+
+.checkboxSearch {
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 17px;
+  top: 10px;
+  z-index: 9;
+  cursor: pointer;
+  appearance: none;
+}
+
+[type='checkbox'], [type='radio']  {
+    color: transparent!important;
+    border-width: none!important;
+    background-color: transparent!important;
+    border-color: transparent!important;
+}
+
+[type='checkbox']:checked {
+    background-image: none!important;
+}
+
+[type='checkbox']:focus, [type='radio']:focus {
+    outline: none!important;
+    outline-offset: none!important;
+    --tw-ring-inset: none!important;
+    --tw-ring-offset-width: none!important;
+    --tw-ring-offset-color:none!important;
+    --tw-ring-color:none!important;
+    --tw-ring-offset-shadow:none!important;
+    --tw-ring-shadow: var(--tw-ring-inset) none!important;
+    box-shadow: var(--tw-ring-offset-shadow), none!important;
+}
+
+
+
+
+input.search_input {
+  box-sizing: border-box;
+  height: 100%;
+  width: 170px;
+  background-color: transparent;
+  --tw-ring-color: none!important;
+  border: none!important;
+  outline: none!important;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  font-size: 1em;
+  color: white;
+  transition: all 0.3s ease;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.search_input::placeholder {
+  color: rgba(255, 255, 255, 0.776);
+}
+
+.iconContainer {
+  box-sizing: border-box;
+  padding-top: 5px;
+  width: fit-content;
+  transition: all 0.3s ease;
+}
+
+.search_icon {
+  box-sizing: border-box;
+  fill: white;
+  font-size: 1.3em;
+}
+
+
+/* Hamburger */
+.hamburger {
+    cursor: pointer;
+  }
+  
+  .hamburger input {
+    display: none;
+  }
+  
+  .hamburger svg {
+    height: 2em;
+    transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .line {
+    fill: none;
+    stroke: white;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 3;
+    /* Define the transition for transforming the Stroke */
+    transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+                stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .line-top-bottom {
+    stroke-dasharray: 12 63;
+  }
+  
+  .hamburger input:checked + svg {
+    transform: rotate(-45deg);
+  }
+  
+  .hamburger input:checked + svg .line-top-bottom {
+    stroke-dasharray: 20 300;
+    stroke-dashoffset: -32.42;
+  }
+  

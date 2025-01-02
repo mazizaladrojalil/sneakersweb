@@ -1,0 +1,68 @@
+[
+  {
+    "id": "1",
+    "image": "https://d5ibtax54de3q.cloudfront.net/eyJidWNrZXQiOiJraWNrYXZlbnVlLWFzc2V0cyIsImtleSI6InByb2R1Y3RzLzM3NDMvYzJlMjRhYWMzMmZlZmE1NDQwM2FjZjdiZDUxYWNmMGMucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxNDAwfX19",
+    "name": "Adidas Samba OG Cloud White Core Black",
+    "price": 1200000,
+    "discount": 50,
+    "stock": {
+      "42" : 1,
+      "41" : 5,
+      "44" : 4
+    }
+  },
+  {
+    "id": "2",
+    "image": "https://d5ibtax54de3q.cloudfront.net/eyJidWNrZXQiOiJraWNrYXZlbnVlLWFzc2V0cyIsImtleSI6InByb2R1Y3RzLzM3NDMvYzJlMjRhYWMzMmZlZmE1NDQwM2FjZjdiZDUxYWNmMGMucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxNDAwfX19",
+    "name": "Adidas Samba OG Cloud White Core Black",
+    "price": 1200000,
+    "discount": null,
+    "stock": {
+      "42" : 1,
+      "41" : 5,
+      "44" : 4
+    }
+  },{
+    "id": "3",
+    "image": "https://d5ibtax54de3q.cloudfront.net/eyJidWNrZXQiOiJraWNrYXZlbnVlLWFzc2V0cyIsImtleSI6InByb2R1Y3RzLzM3NDMvYzJlMjRhYWMzMmZlZmE1NDQwM2FjZjdiZDUxYWNmMGMucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxNDAwfX19",
+    "name": "Adidas Samba OG Cloud White Core Black",
+    "price": 1200000,
+    "discount": null,
+    "stock": {
+      "42" : 1,
+      "41" : 5,
+      "44" : 4
+    }
+  },{
+    "id": "4",
+    "image": "https://d5ibtax54de3q.cloudfront.net/eyJidWNrZXQiOiJraWNrYXZlbnVlLWFzc2V0cyIsImtleSI6InByb2R1Y3RzLzM3NDMvYzJlMjRhYWMzMmZlZmE1NDQwM2FjZjdiZDUxYWNmMGMucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxNDAwfX19",
+    "name": "Adidas Samba OG Cloud White Core Black",
+    "price": 1200000,
+    "discount": null,
+    "stock": {
+      "42" : 1,
+      "41" : 5,
+      "44" : 4
+    }
+  },{
+    "id": "5",
+    "image": "https://d5ibtax54de3q.cloudfront.net/eyJidWNrZXQiOiJraWNrYXZlbnVlLWFzc2V0cyIsImtleSI6InByb2R1Y3RzLzM3NDMvYzJlMjRhYWMzMmZlZmE1NDQwM2FjZjdiZDUxYWNmMGMucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxNDAwfX19",
+    "name": "Adidas Samba OG Cloud White Core Black",
+    "price": 1200000,
+    "stock": {
+      "42" : 1,
+      "41" : 5,
+      "44" : 4
+    }
+  },{
+    "id": "6",
+    "image": "https://d5ibtax54de3q.cloudfront.net/eyJidWNrZXQiOiJraWNrYXZlbnVlLWFzc2V0cyIsImtleSI6InByb2R1Y3RzLzM3NDMvYzJlMjRhYWMzMmZlZmE1NDQwM2FjZjdiZDUxYWNmMGMucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxNDAwfX19",
+    "name": "Adidas Samba OG Cloud White Core Black",
+    "price": 1200000,
+    "stock": {
+      "42" : 1,
+      "41" : 5,
+      "44" : 4
+    }
+  }
+]
